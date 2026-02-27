@@ -1,7 +1,7 @@
-public abstract class PilaAbstracta<T> {
-    
+public abstract class PilaAbstracta<T> implements IPila<T> {
+
     @Override
     public boolean estaVacia() {
-        return this.size() == 0;
+        return size() == 0;
     }
 }
